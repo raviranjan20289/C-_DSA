@@ -14,7 +14,7 @@ void sortOne(int arr[], int n){
 
     while(left< right){
 
-        while(arr[left] == 0){
+        while(arr[left] == 0 ){
             left++;
         }
 
@@ -33,8 +33,8 @@ void sortOne(int arr[], int n){
 
 int main(){
 
-    int arr[6] = {1,1,0,1,0,0};
+    int arr[10] = {1,1,0,1,0,0,1,1,0,0};
 
-    sortOne(arr, 6);
-    printArray(arr, 6);
+    sortOne(arr, 10);
+    printArray(arr, 10);
 }
